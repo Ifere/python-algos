@@ -13,3 +13,5 @@ def happy(n):
         t = next(t)
         h = next(next(h))
     return t ==1
+
+print(happy(100))
